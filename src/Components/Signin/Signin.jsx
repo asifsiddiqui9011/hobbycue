@@ -59,8 +59,8 @@ const Signin = () => {
                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <b>Continue with Facebook</b>
                   </Button>
                   <div className="or-div"><hr style={{width:"35%"}} />&nbsp;  <b>Or connect</b> &nbsp; <hr style={{width:"35%"}} /></div>
-                  <Form.Control size="lg" type="email" placeholder="Enter email" />
-                  <Form.Control size="lg" type="email" placeholder="Enter email" />
+                  <Form.Control size="lg" type="email" placeholder="Email" />
+                  <Form.Control size="lg" type="password" placeholder="Password" />
                   {popup=='join'?
                   
                   <div>

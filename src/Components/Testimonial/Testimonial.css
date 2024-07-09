@@ -16,8 +16,6 @@
 
 .audio{
   width:50%;
-  min-width: 264px;
-  min-height: 64px;
   display: flex;
   align-items: center;
   justify-content:center;
@@ -26,6 +24,14 @@
   padding: 32px 30px;
   border-radius: 8px;
   flex-wrap: nowrap;  
+}
+
+@media(max-width:1100px){
+    .audio{
+        width: 400px;
+        height: 130px;
+        padding: none;
+    }
 }
 
 .input-div{

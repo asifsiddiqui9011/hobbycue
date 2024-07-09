@@ -24,7 +24,7 @@ const Card2 = () => {
               </clipPath>
               </defs>
           </svg>
-          Add your own</Card.Title>
+         &nbsp; Add your own</Card.Title>
         <Card.Text>
         Are you a teacher or expert?  Do you sell or rent out equipment, venue or event tickets?  Or, you know someone who should be on hobbycue?  Go ahead and Add your Own page        </Card.Text>
         <Button variant="outline-secondary" style={{color:"#8064A2",border:"1px solid #8064A2"}}>Add New</Button>
