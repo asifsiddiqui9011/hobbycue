@@ -1,0 +1,15 @@
+.community-container{
+    padding: 100px 100px 30px 100px;
+    background-color: #F7FDFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+}
+
+.cmnty-img{
+    width: 100%;
+    height: auto;
+    min-height: 76px;
+    min-width:312px
+}

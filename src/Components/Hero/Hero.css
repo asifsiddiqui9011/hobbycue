@@ -1,0 +1,29 @@
+.hero-container{
+    height: auto;
+    background-color: #F7F5F9;
+    padding: 100px 100px 0px 100px;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+
+}
+
+.content-container{
+ min-width:312px;
+ max-width: 702px;  
+}
+
+.signin-content{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 123px;
+    flex-wrap: wrap;
+}
+.hero-img{
+   width:auto;
+   min-width: 312px;
+   max-height: 216px;
+   height: auto;
+}
+

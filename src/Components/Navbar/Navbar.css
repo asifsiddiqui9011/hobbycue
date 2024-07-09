@@ -1,0 +1,32 @@
+.logo{
+  height: 60px;
+}
+
+
+.nav-links-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav-container{
+  padding: 10px 100px 10px 100px;
+  background-color: #FFFFFF;
+}
+
+.bell{
+  border:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  outline: none;
+  margin-right: -100px;
+}
+
+.explore-drop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

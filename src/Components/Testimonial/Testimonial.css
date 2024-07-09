@@ -1,0 +1,93 @@
+.testimonial-container{
+   padding: 100px;
+}
+
+.testimonial-div{
+    padding: 40px;
+    background-color:#F7F5F9;
+    ;
+}
+.audio-div{
+    display: flex;
+    align-items:center;
+    gap: 80px;
+    flex-wrap: wrap-reverse
+}
+
+.audio{
+  width:50%;
+  min-width: 264px;
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 40px;
+  background-color:  #CCC1DA;
+  padding: 32px 30px;
+  border-radius: 8px;
+  flex-wrap: nowrap;  
+}
+
+.input-div{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.dancer-img{
+    height: 100px;
+}
+
+.dancer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+ 
+.input-range{
+    width: 100%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.input-range::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 2px;
+}
+
+.input-range::-webkit-slider-thumb{
+    appearance: none;
+    height: 12px;
+    width: 12px;
+    background-color:#8064A2;
+    border-radius: 50%;
+    margin-top: -6px;
+} 
+
+.mic{
+    margin-top: -60px;
+    margin-left: -10px;
+}
+
+.audio-img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.play-btn{
+    height: 35px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

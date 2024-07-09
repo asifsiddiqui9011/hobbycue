@@ -1,0 +1,23 @@
+.signup-container{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.forget-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.signin-div{
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+.or-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

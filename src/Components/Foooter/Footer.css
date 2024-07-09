@@ -1,0 +1,37 @@
+.footer-content{
+  padding: 60px 121px 60px 102px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 190px;
+}
+
+
+
+
+
+
+.footer-copy{
+    height: 78px;
+    background-color: #F7F5F9;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.social-media{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+.social-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
