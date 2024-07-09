@@ -8,6 +8,13 @@
 
 }
 
+@media(max-width:1300px){
+    .hero-container{
+        justify-content: center;
+        gap: 20px;
+    }
+
+}
 .content-container{
  min-width:312px;
  max-width: 702px;  

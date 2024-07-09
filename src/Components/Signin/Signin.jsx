@@ -20,9 +20,12 @@ const Signin = () => {
     <div>
        <div className="signup-container">
                   <div className="signin-div">
-                  
-                    <h4 onClick={()=>{handle('signin')}}>Sign In {popup==='signin'?<hr />:''}</h4>
-                    <h4 onClick={()=>{handle('join')}}>Join In {popup==='join'?<hr />:''}</h4>
+                  <div onClick={()=>{handle('signin')}} id={popup==='signin'?"selected":'not-selected'}>
+                      <h4  >Sign In {popup==='signin'?<hr id={popup==='signin'?"hr-selected":'hr-not-selected'}/>:''}</h4>
+                  </div>
+                  <div  onClick={()=>{handle('join')}} id={popup==='join'?"selected":'not-selected'}>
+                     <h4>Join In  {popup==='join'?<hr  />:''}</h4>
+                  </div>
              
                   </div>
                   <Button variant="outline-secondary" size="lg">

@@ -5,6 +5,25 @@
     gap: 16px;
 }
 
+@media(max-width:900px){
+    .signup-container{
+width: 312px;
+height: 364px;
+    }   
+}
+
+hr{
+    background-color: black;
+    height: 2px;
+}
+
+#selected{
+    color: #8064A2;
+}
+
+#not-selected{
+    color:#939CA3; 
+}
 .forget-div{
     display: flex;
     justify-content: space-between;
